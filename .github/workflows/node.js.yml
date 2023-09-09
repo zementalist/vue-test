@@ -30,4 +30,4 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Publish to /var/www/vueapp
-    - run: cp -R ./build/_work/vue-test/vue-test/dist /var/www/vueapp
+      run: cp -R ./build/_work/vue-test/vue-test/dist /var/www/vueapp
